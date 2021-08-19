@@ -16,3 +16,6 @@ sudo mv -v PianoBooster*.AppImage ${pianoDir}
 #Common
 wget https://github.com/pianobooster/fluid-soundfont/releases/download/v3.1/FluidR3_GM.sf2
 sudo mv -v FluidR3_GM.sf2 ${fontDir}
+
+#Composites
+$DIR/neothesia.sh
