@@ -7,7 +7,7 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 #LMMS
 wget https://github.com/LMMS/lmms/releases/download/v1.2.2/lmms-1.2.2-linux-x86_64.AppImage
 chmod +x lmms*.AppImage
-sudo cp -v lmms.sh.template ${pianoDir}
+sudo cp -v lmms.sh.template ${pianoDir}/lmms.sh
 sudo mv -v -f lmms*.AppImage ${pianoDir}
 
 #PianoBooster
