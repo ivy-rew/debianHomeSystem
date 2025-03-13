@@ -8,7 +8,7 @@ sudo wget -O /etc/apt/keyrings/winehq-archive.key\
 
 ubu="noble"
 sudo wget -NP /etc/apt/sources.list.d/\
- https://dl.winehq.org/wine-builds/ubuntu/dists/${noble}/winehq-noble.sources
+ https://dl.winehq.org/wine-builds/ubuntu/dists/${ubu}/winehq-noble.sources
 
 sudo dpkg --add-architecture i386
 sudo apt update
